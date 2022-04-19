@@ -11,3 +11,8 @@ This repository contains solutions for #8WeekSQLChallenge
 > [My solutions](https://github.com/sharkawy98/sql-case-studies/tree/main/case_study_2)
 ### ERD 
 ![image](https://user-images.githubusercontent.com/36075516/162094574-8d642898-dd21-4231-9e1f-e37dfa69a293.png)
+
+## Case Study [#3](https://8weeksqlchallenge.com/case-study-3/) : Foodie-Fi
+> [My solutions](https://github.com/sharkawy98/sql-case-studies/tree/main/case_study_3)
+### ERD 
+![image](https://user-images.githubusercontent.com/36075516/163922765-6055bd1c-9ba7-4e5c-b6c0-4201295ba3d7.png)
