@@ -1,12 +1,7 @@
 # 🔄 Data Cleaning & Transformations
-I will generate new cleaned tables to be used for further analysis answering case study questions
+I will generate new cleaned temp tables to be used in answering all case study questions
 
-## customer_orders 
-* Table before cleaning:
-
-![image](https://user-images.githubusercontent.com/36075516/162091921-a7232bd2-aebc-4a43-8c2e-e5f64e0d53bd.png)
-
-* SQL Transformations:
+## cleaned_customer_orders 
 ```sql
 SELECT 
     order_id,
@@ -24,19 +19,11 @@ SELECT
 INTO #cleaned_customer_orders
 FROM customer_orders;
 ```
+Before cleaning | After cleaning
+:--:|:--:
+![image](https://user-images.githubusercontent.com/36075516/162091921-a7232bd2-aebc-4a43-8c2e-e5f64e0d53bd.png) | ![image](https://user-images.githubusercontent.com/36075516/162092976-7eb8e3d2-0330-456d-80ee-06fcbeefcf3c.png)
 
-* Table after cleaning:
-
-![image](https://user-images.githubusercontent.com/36075516/162092976-7eb8e3d2-0330-456d-80ee-06fcbeefcf3c.png)
-
-
-
-## runner_orders 
-* Table before cleaning:
-
-![image](https://user-images.githubusercontent.com/36075516/162093228-f3301873-9201-46ec-a6ed-236cc48465eb.png)
-
-* SQL Transformations:
+## cleaned_runner_orders 
 ```sql
 SELECT 
     order_id,
@@ -60,7 +47,6 @@ END as cancellation
 INTO #cleaned_runner_orders
 FROM runner_orders;
 ```
-
-* Table after cleaning:
-
-![image](https://user-images.githubusercontent.com/36075516/162093341-c8f238f5-297c-4417-92ef-f38c92adf229.png)
+Before cleaning | After cleaning
+:--:|:--:
+![image](https://user-images.githubusercontent.com/36075516/162093228-f3301873-9201-46ec-a6ed-236cc48465eb.png) | ![image](https://user-images.githubusercontent.com/36075516/162093341-c8f238f5-297c-4417-92ef-f38c92adf229.png)
