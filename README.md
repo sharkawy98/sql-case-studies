@@ -3,7 +3,7 @@ This repository contains solutions for #8WeekSQLChallenge
 
 
 ## Case Study [#1](https://8weeksqlchallenge.com/case-study-1/) : Danny's Diner
-> [My solutions](https://github.com/sharkawy98/sql-case-studies/blob/main/case_study_1.sql)
+> [My solutions](https://github.com/sharkawy98/sql-case-studies/tree/main/case_study_1)
 ### ERD 
 ![image](https://user-images.githubusercontent.com/36075516/162094702-20266a74-afb8-483b-ba5a-37a676df2948.png)
 
