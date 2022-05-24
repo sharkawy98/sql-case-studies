@@ -75,7 +75,7 @@ WHERE
 	s.order_date <= d.last_date
 GROUP BY s.customer_id;
 ```
-
+---
 ```sql
 -- Case study 2, data cleaning
 SELECT 
@@ -100,7 +100,7 @@ SELECT
 INTO #cleaned_runner_orders
 FROM runner_orders;
 ```
-
+---
 ```sql
 -- Case study 2, c) ingredient optimisation data cleaning
 -- Question: The ingredients of each pizza a stored at pizza_recipes table as a comma separated string including ids of all its toppings, change this string to multiple rows
@@ -117,7 +117,7 @@ FROM runner_orders;
     ON TRIM(t.value) = pt.topping_id 
  ;
 ```
-
+---
 ```sql
 -- Case study 2, c) ingredient optimisation question 3
 -- Question: Generate an order item for each record in the customers_orders table in the format of one of the following:
@@ -169,7 +169,7 @@ GROUP BY
 	p.pizza_name
 ORDER BY 1;
 ```
-
+---
 ```sql
 -- Case study 3, b) data analysis question 5
 -- Question: How many customers have churned straight after their initial free trial - what percentage is this rounded to the nearest whole number?
