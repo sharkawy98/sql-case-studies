@@ -43,6 +43,11 @@ I used __Microsoft SQL Server__ in writing SQL queries to solve these case studi
 ### ERD 
 ![image](https://user-images.githubusercontent.com/36075516/163922765-6055bd1c-9ba7-4e5c-b6c0-4201295ba3d7.png)
 
+## Case Study [#4](https://8weeksqlchallenge.com/case-study-4/) : Data Bank
+> [My solutions](https://github.com/sharkawy98/sql-case-studies/tree/main/case_study_4)
+### ERD 
+![image](https://user-images.githubusercontent.com/36075516/171291126-bcc6d12e-e2a5-48a4-a2b5-b4840ca2b809.png)
+
 
 ## Some interesting queries
 ```sql
